@@ -1,4 +1,4 @@
-FROM rasa/rasa:2.8.0
+FROM rasa/rasa:latest
 
 COPY app /app
 COPY server.sh /app/server.sh
